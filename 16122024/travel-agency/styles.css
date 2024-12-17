@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background-color: aquamarine;
+}
+
+header h2 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  /*border: solid 2px red;*/
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.15rem;
+}
+section {
+  padding: 30px;
+  text-align: justify;
+}
+.services {
+  background-color: gray;
+  min-height: 200px;
+  gap: 1rem;
+  padding: 2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 2fr);
+}
+.excursions {
+  background-color: beige;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+.wildlife {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+.sigthseeing {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+.expeditions {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+.foods {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+.wine {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+/*.nav-end {
+  display: flex;
+  border: solid 2px red;
+  width: 75%;
+  justify-content: space-between;
+}*/
