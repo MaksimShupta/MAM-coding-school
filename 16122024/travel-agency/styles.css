@@ -8,11 +8,18 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
+  background-image: url("https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
 header h2 {
   font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+  background-color: #db8b00;
+  text-decoration-color: white;
 }
 
 nav ul {
@@ -31,16 +38,51 @@ nav a {
 section {
   padding: 30px;
 }
+
+.gallery {
+  min-height: 200px;
+  gap: 1rem;
+  padding: 2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 3fr);
+  padding: 30px;
+}
+.gallery:hover img {
+  transform: scale(1.02);
+}
+.excursions:hover {
+  transform: scale(1.02);
+}
+.expeditions:hover {
+  transform: scale(1.02);
+}
+.wine:hover {
+  transform: scale(1.02);
+}
+.wildlife:hover {
+  transform: scale(1.02);
+}
+.foods:hover {
+  transform: scale(1.02);
+}
+.sightseeing:hover {
+  transform: scale(1.02);
+}
+
 .services {
   background-color: gray;
   min-height: 200px;
+  max-height: 500px;
   gap: 1rem;
   padding: 2rem;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(3, 2fr);
   font-size: 12px;
+  background-image: url("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
+
 .excursions {
   /*background-color: beige;*/
   gap: 10px;
@@ -52,6 +94,8 @@ section {
   margin-left: 50px;
   width: 75%;
   text-align: justify;
+  background: linear-gradient(45deg, #db8b00, #0083b0);
+  color: white;
 }
 .wildlife {
   display: flex;
@@ -63,6 +107,8 @@ section {
   margin-left: 50px;
   width: 75%;
   text-align: justify;
+  background: linear-gradient(45deg, #db8b00, #0083b0);
+  color: white;
 }
 .sightseeing {
   display: flex;
@@ -74,6 +120,8 @@ section {
   padding: 20px;
   margin-left: 50px;
   width: 75%;
+  background: linear-gradient(45deg, #db8b00, #0083b0);
+  color: white;
 }
 .expeditions {
   display: flex;
@@ -85,6 +133,8 @@ section {
   margin-left: 50px;
   width: 75%;
   text-align: justify;
+  background: linear-gradient(45deg, #db8b00, #0083b0);
+  color: white;
 }
 .foods {
   display: flex;
@@ -96,6 +146,8 @@ section {
   margin-left: 50px;
   width: 75%;
   text-align: justify;
+  background: linear-gradient(45deg, #db8b00, #0083b0);
+  color: white;
 }
 .wine {
   display: flex;
@@ -107,4 +159,6 @@ section {
   margin-left: 50px;
   width: 75%;
   text-align: justify;
+  background: linear-gradient(45deg, #db8b00, #0083b0);
+  color: white;
 }
