@@ -1,0 +1,20 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+.navbar a {
+  float: left;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  gap: 20px;
+}
+.navbar a:hover {
+  background-color: red;
+}
+a {
+  font-family: "Caveat";
+}
