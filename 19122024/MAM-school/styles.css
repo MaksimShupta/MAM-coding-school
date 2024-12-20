@@ -9,25 +9,72 @@
 Lato > sans serif */
 
 .navbar {
+  background-color: #13ac86;
   overflow: hidden;
-  background-color: #333;
+  padding: 1rem 1rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.navbar a {
-  float: left;
-  font-size: 24px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  max-height: 100px;
+  width: auto;
+}
+nav ul li a {
+  font-size: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar ul li a {
+  color: rgb(240, 235, 235);
   text-decoration: none;
-  gap: 20px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
 }
-.navbar a:hover {
-  background-color: red;
+
+.navbar ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
 }
-a {
-  font-family: "Caveat";
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
+
+
+.logo-text {
+  font-style:italic;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+
+.tagline {
+  text-align: center;
+  font-size: 25px;
+  color: #130101;
+  margin-top: 30px;
+  font-style: italic;
+  
+}
+
 .frontend {
   gap: 10px;
   display: flex;
