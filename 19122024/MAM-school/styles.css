@@ -104,3 +104,237 @@ p {
   letter-spacing: 1px;
   align-self: center;
 }
+.frontend {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 50px;
+  width: 50%;
+  text-align: justify;
+  border: 2px solid #4c4d5f;
+  border-width: 2px;
+  color: black;
+}
+.frontend:hover {
+  transform: scale(1.02);
+}
+.python {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 50px;
+
+  width: 50%;
+  text-align: justify;
+  color: black;
+  border: 2px solid #4c4d5f;
+  border-width: 2px;
+}
+.python:hover {
+  transform: scale(1.02);
+}
+.android {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 50px;
+  width: 50%;
+  text-align: justify;
+  border: 2px solid #4c4d5f;
+  border-width: 2px;
+  color: black;
+}
+.android:hover {
+  transform: scale(1.02);
+}
+
+.ios {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 50px;
+  width: 50%;
+  text-align: justify;
+  border: 2px solid #4c4d5f;
+  border-width: 2px;
+  color: black;
+}
+
+.ios:hover {
+  transform: scale(1.02);
+}
+
+.ui {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 50px;
+  width: 50%;
+  text-align: justify;
+  border: 2px solid #4c4d5f;
+  border-width: 2px;
+  color: black;
+}
+.ui:hover {
+  transform: scale(1.02);
+}
+
+.fullstack {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 50px;
+  width: 50%;
+  text-align: justify;
+  color: black;
+  border: 2px solid #4c4d5f;
+  border-width: 2px;
+}
+.fullstack:hover {
+  transform: scale(1.02);
+}
+
+.PriceValue p {
+  font-size: 20px;
+  font-family: "Arial";
+}
+h3 {
+  font-size: 22px;
+}
+.underlined {
+  color: #00b289;
+  font-size: 12px;
+}
+p {
+  font-size: 14px;
+}
+
+.Prices {
+  background-color: #fff;
+  min-height: 200px;
+  max-height: 500px;
+  gap: 1rem;
+  padding: 2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 2fr);
+  font-size: 12px;
+}
+hr {
+  color: #00b289;
+}
+button {
+  background-color: #00b289;
+  color: white;
+  height: 150%;
+  border-color: #00b289;
+  padding: 20px 20px;
+}
+/*h2 {
+  text-align: center;
+  text-decoration-color: white;
+}*/
+.PriceName {
+  font-size: 24px;
+}
+.lblMonthly {
+  font-size: 22px;
+  text-align: justify;
+}
+.lblYearly {
+  font-size: 22px;
+  text-align: justify;
+}
+.PriceHeader {
+  display: flex;
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+/*.PriceHeader > div {
+  margin: 10px;
+  margin-right: 35px;
+  text-align: center;
+}*/
+.Wrapper {
+  display: flex;
+  margin-left: 80rem;
+  margin-top: 1rem;
+  gap: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #00b289;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #00b289;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
